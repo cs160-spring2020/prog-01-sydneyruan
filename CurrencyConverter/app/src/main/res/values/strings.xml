@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="currency">currency</string>
+
+    <string-array name="currency">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>JPY</item>
+        <item>BTC</item>
+    </string-array>
+    Button convert = (Button)findViewById(R.id.convert);
+    convert.setContentDescription("Convert");
+
+    Button reverse = (Button)findViewById(R.id.reverse);
+    reverse.setContentDescription("Reverse");
+
+    imageView pic = (imageView)findViewById(R.id.imageView);
+    pic.setContentDescription("currency");
+</resources>
